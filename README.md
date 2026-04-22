@@ -73,16 +73,16 @@
 ```json
 {
   "BotSettings": {
-    "BotToken": "123456:ABC-DEF...", 
-    "AdminPassword": "ваш_секретный_пароль"
+    "Token": "TELEGRAM_TOKEN", 
+    "AdminPassword": "ПАРОЛЬ"
   },
-  "Groq": {
-    "ApiKey": "gsk_..." 
+  "ExternalServices": {
+    "GroqApiKey": "API_КЛЮЧ" 
   },
   "EmailSettings": {
-    "SmtpServer": "smtp.yandex.ru",
-    "Port": 465,
+    "SmtpHost": "smtp.yandex.ru",
+    "SmtpPort": 465,
     "BotEmail": "manager@yandex.ru",
-    "BotPassword": "abcd-efgh-ijkl-mnop"
+    "BotPassword": "ПАРОЛЬ"
   }
 }
